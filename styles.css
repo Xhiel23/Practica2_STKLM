@@ -1,6 +1,6 @@
 :root{
     --yellow :#e6ae48;
-    --Lightgrey: #8d8d8d;
+    --lightgrey: #8d8d8d;
     --black: #393939;
 }
 *{
@@ -67,6 +67,7 @@ nav .menuItem a{
     font-size: 0.8em;
     letter-spacing: 3px;
     color: var(--black);
+    padding: 0 15%;
 }
 .menuItem a:hover{
     color: var(--yellow);
@@ -74,4 +75,42 @@ nav .menuItem a{
 
 .menuItem.home a{
     color: var(--yellow);
+}
+.container{
+    /* width: 70%; */
+    background-color: aquamarine;
+    width: 235px;
+    display: none;
+}
+.pagesMenu .item{
+    
+}
+.pagesMenu .item a{
+    text-transform: capitalize;
+    color: var(--lightgrey);
+    font-size: 0.6em;
+    font-weight: 300;
+}
+.menuItem.page:hover .menuItem.page{
+    position: fixed;
+    top: 0;
+}
+.menuItem.page:hover .container{
+    display: inline;
+    position: relative;
+    vertical-align: baseline;  
+}
+.menuItem.page:hover .pagesMenu{
+    display: grid;
+}
+
+.container .line{
+    display: inherit;
+    background-color: var(--yellow);
+    width: 100%;
+    height: 3px;
+    display: none;
+}
+.menuItem.page:hover .line{
+    display: grid;
 }
