@@ -81,27 +81,20 @@ nav .menuItem a{
     background-color: aquamarine;
     width: 235px;
     display: none;
+    position: absolute;
+    left: 0;
+    z-index: 1;
 }
-.pagesMenu .item{
-    
-}
+
 .pagesMenu .item a{
     text-transform: capitalize;
     color: var(--lightgrey);
     font-size: 0.6em;
     font-weight: 300;
 }
-.menuItem.page:hover .menuItem.page{
-    position: fixed;
-    top: 0;
-}
+
 .menuItem.page:hover .container{
-    display: inline;
-    position: relative;
-    vertical-align: baseline;  
-}
-.menuItem.page:hover .pagesMenu{
-    display: grid;
+    display: block;
 }
 
 .container .line{
@@ -112,5 +105,5 @@ nav .menuItem a{
     display: none;
 }
 .menuItem.page:hover .line{
-    display: grid;
+    display: block;
 }
