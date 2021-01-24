@@ -2,6 +2,8 @@
     --yellow :#e6ae48;
     --lightgrey: #a6a6a6;
     --black: #393939;
+    --white: white;
+    --separation: 4px;
 }
 *{
     margin: 0;
@@ -20,7 +22,7 @@ body{
 }
 ::selection{
     background-color: var(--yellow);
-    color: white;
+    color: var(--white);
 }
     /* HEADER */
 header{
@@ -33,7 +35,7 @@ header{
 }
 header .centered{
     width: 90%;
-    letter-spacing: 4px;
+    letter-spacing: var(--separation);
     margin: auto;
     display: flex;
     flex: row nowrap;
@@ -83,8 +85,9 @@ nav .menuItem a{
     display: none;
     position: absolute;
     vertical-align: baseline;
-    z-index: 1;
+    /* z-index: 1; */
     padding-top: 3em;
+    transition: all .5 ease;
 }
 .pagesMenu .item a{
     text-transform: capitalize;
@@ -100,7 +103,7 @@ nav .menuItem a{
 
 .menuItem.page:hover .container{
     display: block;
-
+    background-color: var(--white);
 }
 
 .container .line{
@@ -112,4 +115,72 @@ nav .menuItem a{
 }
 .menuItem.page:hover .line{
     display: block;
+}
+    /* MAIN BODY */
+
+.product{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.product .centered{
+    width: 90%;
+    max-width: 1100px;
+   
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: initial;
+}
+.column{
+    width: 45%;
+}
+
+.column h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: var(--separation);
+    font-weight: 800;
+    color: var(--black);
+}
+
+.column .line{
+    border: var(--black) solid 1px;
+    width: 100%;
+    max-width: 120px;
+    background-color: var(--black);
+    margin:2em 0;
+    display: inline-flex;
+}
+
+.column p{
+    margin: 0 0 2.2em;
+    line-height: 1.8em;
+    color: var(--black);
+}
+
+
+.btn h3 a{
+    padding: 1em 2em;
+    border:2px solid var(--yellow);
+
+    display: inline-flex;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .6em;
+    letter-spacing: 2px;
+    color: var(--yellow);
+
+    transition: all 0.5s ease;
+}
+
+.btn:hover h3 a{
+    background-color: var(--yellow);
+    color: var(--white);
 }
