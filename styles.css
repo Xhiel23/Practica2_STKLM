@@ -32,6 +32,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    background-color: var(--white);
 }
 header .centered{
     width: 90%;
@@ -117,7 +118,7 @@ nav .menuItem a{
     display: block;
 }
     /* MAIN BODY */
-
+    /* WHITE BG */
 .product{
     height: 100vh;
     width: 100%;
@@ -183,4 +184,36 @@ nav .menuItem a{
 .btn:hover h3 a{
     background-color: var(--yellow);
     color: var(--white);
+}
+
+    /* YELLOW BG */
+
+.product.yellow{
+    background-color: var(--yellow);
+}
+.product.yellow .centered{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.product.yellow h2{
+    color: var(--white);
+}
+
+.product.yellow .line{
+    background-color: var(--white);
+    border-color: var(--white);
+}
+
+.product.yellow p{
+    color: var(--white);
+}
+
+.product.yellow .btn a{
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.product.yellow .btn:hover h3 a{
+    background-color: var(--white);
+    color: var(--yellow);
 }
