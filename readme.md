@@ -1,10 +1,5 @@
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
@@ -19,10 +14,10 @@
 
   <p align="center">
     Página principal de STKML hecha para el curso de Desarrollo Web de Bejob.
-    <!-- <br />
+    <br />
     <a href="https://github.com/Xhiel23/Practica2_STKLM"><strong>Explore the docs »</strong></a>
     <br />
-    <br /> -->
+    <br />
     <a href="https://github.com/Xhiel23/Practica2_STKLM/issues">Comunica un bug</a>
     ·
     <a href="https://github.com/Xhiel23/Practica2_STKLM/issues">Añade una nueva funcionalidad</a>
@@ -187,18 +182,7 @@ Project Link: [https://github.com/Xhiel23/repo_name](https://github.com/Xhiel23/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
-[contributors-url]: https://github.com/Xhiel23/Practica2_STKLM/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
-[forks-url]: https://github.com/Xhiel23/Practica2_STKLM/network/members
-[stars-shield]: https://img.shields.io/github/stars/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
-[stars-url]: https://github.com/Xhiel23/Practica2_STKLM/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
-[issues-url]: https://github.com/Xhiel23/Practica2_STKLM/issues
-[license-shield]: https://img.shields.io/github/license/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
-[license-url]: https://github.com/Xhiel23/Practica2_STKLM/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: www.linkedin.com/in/beatriz-cabrero-saiz-85b74a1ab
+
 [product-screenshot1]:images/screenshots/screenshot1.png
 [product-screenshot2]:images/screenshots/screenshot2.png
 [product-screenshot3]:images/screenshots/screenshot3.png
