@@ -6,9 +6,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Xhiel23/Practica2_STKLM">
-    <img src="images/logoSTKLM.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">Página principal de STKML</h3>
 
