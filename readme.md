@@ -15,7 +15,6 @@
   <p align="center">
     Página principal de STKML hecha para el curso de Desarrollo Web de Bejob.
     <br />
-    <a href="https://github.com/Xhiel23/Practica2_STKLM"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Xhiel23/Practica2_STKLM/issues">Comunica un bug</a>
@@ -59,13 +58,22 @@ Segunda práctica realizada para el curso de Desarrolladora Web.
 La práctica consiste en la creación de una página web tomando como referencia la página siguiente [STKML](https://demo.select-themes.com/stockholm14/).
 
 La página creada contiene las siguiente funcionalidades:
+<br />
 * Vista en pantallas de ordenador con modo resposive
-[![Product Name Screen Shot][product-screenshot1]](https://example.com)
-* Vista en pantallas de móvil
-[![Product Name Screen Shot][product-screenshot2]](https://example.com)
-* Menú funcional
-[![Product Name Screen Shot][product-screenshot3]](https://example.com)
 
+[![Product Name Screen Shot][product-screenshot1]](https://example.com)
+    <br />
+    <br />
+* Vista en pantallas de móvil
+
+[![Product Name Screen Shot][product-screenshot2]](https://example.com)
+    <br />
+    <br />
+* Menú funcional
+
+[![Product Name Screen Shot][product-screenshot3]](https://example.com)
+    <br />
+     <br />
 
 ### Creado con:
 
@@ -100,18 +108,16 @@ Para guardar una copia local y hacerla funcionar sigue los pasos de la sección 
 2. Asegurate de tener instalado Nodejs
   ```sh
   node --version
-  ```
-    ```sh
-  v14.15.4
+  >> v14.15.4
   ```
 3. Instala npm si no lo tienes instalado ya
-   ```sh
+  ```sh
   npm install
-   ```
+  ```
 4. Instala Gulp si no lo tienes instalado ya
-     ```sh
+  ```sh
   sudo npm install gulp -g
-   ```
+  ```
 5. Navega a la carpeta donde clonaste el repositorio e inicia npm
   ```sh
   npm init
@@ -165,7 +171,7 @@ Distribuido bajo la licencia MIT. Para más información mira el archivo `LICENS
 ## Contacto
 
 
-Project Link: [https://github.com/Xhiel23/repo_name](https://github.com/Xhiel23/Practica2_STKLM)
+Project Link: [https://github.com/Xhiel23/Practica2_STKLM](https://github.com/Xhiel23/Practica2_STKLM)
 
 
 
