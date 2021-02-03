@@ -8,7 +8,11 @@ footer{
     text-align: center;
     .centered{
         width: 90%;
-        max-width: 1100px;
+        max-width: 60em;
+        @include respond(medium) {
+            width: 90%;
+            padding-left: 1em;
+        }
         h3{
             @include up($textSeparation);
             color: $mainBg;

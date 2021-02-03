@@ -1,6 +1,7 @@
 @import '_variables&fxs' ;
 
 header{
+    z-index: 3;
     @include up($textSeparation);
     width: 100%;
     padding: 1.8em 0;
@@ -8,6 +9,9 @@ header{
     top: 0;
     left: 0;
     background-color: $mainBg;
+    @include respond(medium){
+        position: relative;
+    }
     .centered{
         width: 90%;
         margin: auto;
@@ -26,7 +30,6 @@ header{
                 @include flexPosition(row, nowrap, flex-end);
                 .menuItem{
                     padding: 0 1.5em;
-                    
                     a{
                         font-weight: $fontWeight;
                         letter-spacing: 3px;
