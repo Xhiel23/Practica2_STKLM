@@ -1,6 +1,7 @@
 $baseColorY: #e6ae48;
 $baseColorB: #393939;
 $lightColor: #a6a6a6;
+$mobileLinecolor: #eaeaea;
 $mainBg: white;
 
 $textSeparation: 5px;
@@ -38,9 +39,9 @@ $fontWeight: 800;
 
 @mixin respond($breakpoint) {
     @if $breakpoint == medium {
-      @media (max-width: 1200px) { @content };
+        @media screen and (max-width:1000px) { @content };
     }
     @if $breakpoint == small {
-      @media (max-width: 600px) { @content };
+        @media screen and (max-width:650px) { @content };
     }
 }

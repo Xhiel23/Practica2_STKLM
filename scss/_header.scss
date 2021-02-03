@@ -16,8 +16,27 @@ header{
         width: 90%;
         margin: auto;
         @include flexPosition(row, nowrap, space-between);
+        #hamburger{
+            display: none;
+            padding: 0 1em;
+            width: 30px;
+            @include respond(medium){
+                display: flex;
+                font-size: 1.5em;
+                cursor: pointer;  
+                &:hover{
+                    color: $baseColorY;
+                }
+            }
+        }
         .logo{
             max-width: 200px;
+            @include respond(medium){
+                width: calc(100%-30px);
+                margin: auto;
+                // position: absolute;
+                // left: 50%;
+            }
             h1{
                 font-size: 1.8em;
                 font-weight: $fontWeight;
@@ -25,17 +44,24 @@ header{
             }
         }
         .nav{
+            @include respond(medium){
+                opacity: 0;
+                transform: translateY(0%) ;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: 5em;           
+            }
             width: calc(100% - 200px);
             .menu{
                 @include flexPosition(row, nowrap, flex-end);
                 .menuItem{
-                    padding: 0 1.5em;
+                    padding: 0 1.6em;
                     a{
                         font-weight: $fontWeight;
                         letter-spacing: 3px;
                         color: $baseColorB;
                         font-size: 0.8em;
-                        padding: 0 1.5em;
                         &:hover{
                             color: $baseColorY;
                         }
@@ -52,10 +78,42 @@ header{
                         .container{
                             display: block;
                             background-color: $mainBg;
+                            @include respond(medium){
+                                display: none;
+                            }
                         }
                     }
                 }
 
+            }
+            .menu.visible{
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+                .menuItem{
+                    width: 100%;
+                    // margin: 1em 3.7em;
+                    border-bottom: 1px solid $mobileLinecolor;
+                    @include flexPosition(row,nowrap,flex-start);
+                    padding: 0;
+                    margin: 0 4.6em;
+                    a{
+                        font-weight: 400;
+                        color: $lightColor;
+                        text-transform: capitalize;
+                        letter-spacing: 0;
+                        padding: 1em 0;
+                        font-size: 0.9em;
+                        &:hover{
+                            color: $baseColorY;
+                        }
+                    }
+                }
+                .home {
+                    a{
+                        color: $baseColorY;
+                    }
+                }
             }
             .container{
                 width: 250px;
@@ -90,6 +148,13 @@ header{
                 }
             }
         }
+        nav.visible{
+            width: 100%;
+            opacity: 1;
+            transform: translateY(10%) ;
+            transition: all 0.5s ease;
+        }
+
     }
     
 }
