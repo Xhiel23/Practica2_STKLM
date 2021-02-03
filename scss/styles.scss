@@ -1,0 +1,42 @@
+@import '_header';
+@import '_variables&fxs';
+@import '_product';
+@import 'footer';
+*{
+    @include reset;
+}
+body{
+    font-family: $mainFont;
+}
+
+.product.yellow{
+    @extend .product;
+    background-color: $baseColorY;
+    .centered{
+        flex-direction: row-reverse;
+        text-align: right;
+        h2{
+            color: $mainBg;
+        }
+        .line{
+            background-color: $mainBg;
+            border-color: $mainBg;
+        }
+        p{
+            color: $mainBg;
+        }
+        .btn{
+            h3{
+                a{
+                    border-color: $mainBg;
+                    color: $mainBg;
+                    &:hover{
+                        background-color: $mainBg;
+                        color: $baseColorY;
+                    }
+                }
+            }    
+        }
+    }
+    
+}

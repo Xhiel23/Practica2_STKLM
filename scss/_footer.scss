@@ -1,0 +1,50 @@
+@import '_variables&fxs' ;
+
+footer{
+    background-color:$baseColorB;
+    width: 100%;
+    height: 100vh;
+    @include flexPosition(row,nowrap,center);
+    text-align: center;
+    .centered{
+        width: 90%;
+        max-width: 1100px;
+        h3{
+            @include up($textSeparation);
+            color: $mainBg;
+            font-size: 4.5em;
+            font-weight: 800;
+        }
+        p{
+            color: $baseColorY;
+            font-size: 0.8em;
+            font-weight: 400;
+        }
+        .line{
+            width:100%;
+            max-width: 115px;
+            height: 2px;
+            background-color: $mainBg;
+            margin: 2.5em auto 4em;
+        }
+        .icons{
+            @include flexPosition(row,nowrap,center);
+            .li{
+                margin: 0 .4em;
+                a{
+                    width:25px;
+                    height: 25px;
+                    background-color: $mainBg;
+                    color: $baseColorB;
+                    border-radius: 100%;
+                    @include flexPosition(row,nowrap,center);
+                    transition: all .5s ease;
+                    &:hover{
+                        background-color: $baseColorY;
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -41,3 +41,5 @@ Thumbs.db
 gulpfile.js
 *.json
 node_modules
+styles.css.map
+dist
