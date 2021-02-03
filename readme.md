@@ -77,7 +77,7 @@ La página creada contiene las siguiente funcionalidades:
 
 ### Creado con:
 
-* [HTML,CSS]()
+* HTML,CSS
 * [SASS](https://sass-lang.com)
 * [VS Code](https://code.visualstudio.com)
 * [Gulp](https://gulpjs.com)
