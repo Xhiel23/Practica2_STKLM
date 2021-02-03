@@ -64,7 +64,7 @@ La página creada contiene las siguiente funcionalidades:
 [![Product Name Screen Shot][product-screenshot1]](https://example.com)
     <br />
     <br />
-* Vista en pantallas de móvil
+* Vista en pantallas pequeñas
 
 [![Product Name Screen Shot][product-screenshot2]](https://example.com)
     <br />
