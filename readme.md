@@ -30,22 +30,22 @@
   <summary><h2 style="display: inline-block">Tabla de contenidos</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">Sobre el proyecto</a>
+      <a href="#sobre-el-proyecto">Sobre el proyecto</a>
       <ul>
-        <li><a href="#built-with">Creado con:</a></li>
+        <li><a href="#creado-con">Creado con</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Guía de instalación</a>
+      <a href="#antes-de-comenzar">Antes de comenzar</a>
       <ul>
-        <li><a href="#vscode">VS Code</a></li>
+        <li><a href="#vs-code">VS Code</a></li>
         <li><a href="#gulp">Gulp</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Hoja de ruta</a></li>
-    <li><a href="#contributing">Contribuir</a></li>
-    <li><a href="#license">Licencia</a></li>
-    <li><a href="#contact">Contacto</a></li>
+    <li><a href="#hoja-de-ruta">Hoja de ruta</a></li>
+    <li><a href="#contribuir">Contribuir</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+    <li><a href="#contacto">Contacto</a></li>
   </ol>
 </details>
 
