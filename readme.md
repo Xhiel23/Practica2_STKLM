@@ -1,25 +1,4 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -32,23 +11,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/Xhiel23/Practica2_STKLM">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Página principal de STKML</h3>
 
   <p align="center">
-    project_description
+    Página principal de STKML hecha para el curso de Desarrollo Web de Bejob.
+    <!-- <br />
+    <a href="https://github.com/Xhiel23/Practica2_STKLM"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <br /> -->
+    <a href="https://github.com/Xhiel23/Practica2_STKLM/issues">Comunica un bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Xhiel23/Practica2_STKLM/issues">Añade una nueva funcionalidad</a>
   </p>
 </p>
 
@@ -56,127 +33,153 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary><h2 style="display: inline-block">Tabla de contenidos</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Sobre el proyecto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Creado con:</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Guía de instalación</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#vscode">VS Code</a></li>
+        <li><a href="#gulp">Gulp</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#roadmap">Hoja de ruta</a></li>
+    <li><a href="#contributing">Contribuir</a></li>
+    <li><a href="#license">Licencia</a></li>
+    <li><a href="#contact">Contacto</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre el proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Segunda práctica realizada para el curso de Desarrolladora Web. 
+La práctica consiste en la creación de una página web tomando como referencia la página siguiente [STKML](https://demo.select-themes.com/stockholm14/).
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+La página creada contiene las siguiente funcionalidades:
+* Vista en pantallas de ordenador con modo resposive
+[![Product Name Screen Shot][product-screenshot1]](https://example.com)
+* Vista en pantallas de móvil
+[![Product Name Screen Shot][product-screenshot2]](https://example.com)
+* Menú funcional
+[![Product Name Screen Shot][product-screenshot3]](https://example.com)
 
 
-### Built With
+### Creado con:
 
-* []()
-* []()
-* []()
+* [HTML,CSS]()
+* [SASS](https://sass-lang.com)
+* [VS Code](https://code.visualstudio.com)
+* [Gulp](https://gulpjs.com)
+* [Browser Sync](http://www.browsersync.io)
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Antes de comenzar
 
-To get a local copy up and running follow these simple steps.
+Para guardar una copia local y hacerla funcionar sigue los pasos de la sección que aplique. Para modificar los archivos .scss tienes que tener instalada la extensión de Sass de VS Code o en su defecto usar Gulp.
 
-### Prerequisites
+### VS Code
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+1. Clona el repositorio
+   ```sh
+   git clone https://github.com/Xhiel23/Practica2_STKLM.git
+   ```
+2. Abre la carpeta en VS Code
+
+
+### Gulp
+
+1. Clona el repositorio
+   ```sh
+   git clone https://github.com/Xhiel23/Practica2_STKLM.git
+   ```
+2. Asegurate de tener instalado Nodejs
   ```sh
-  npm install npm@latest -g
+  node --version
+  ```
+    ```sh
+  v14.15.4
+  ```
+3. Instala npm si no lo tienes instalado ya
+   ```sh
+  npm install
+   ```
+4. Instala Gulp si no lo tienes instalado ya
+     ```sh
+  sudo npm install gulp -g
+   ```
+5. Navega a la carpeta donde clonaste el repositorio e inicia npm
+  ```sh
+  npm init
+  ```
+6. Sigue las instrucciones de la pantalla para configurar el archivo package.json
+7. Una vez configurado, instala Gulp, Sass y Browser Sync
+  ```sh
+  npm install gulp gulp-sass browser-sync
   ```
 
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-
-
+El archivo gulpfile.js contiene las siguientes tareas de Gulp:
+<ul>
+  <li> Compila los archivos SCSS y los convierte en CSS.
+  <li> Mira si hay algún cambio en los archivos de Sass (.scss) o Javascript (.js).
+  <li> Recarga automática de BrowserSync.
+  <li> (Opcional) Se puede quitar el comentario en el archivo gulpfile.js para generar la misma estructura de carpetas que se usa en este proyecto.
+</ul>
 <!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Hoja de ruta
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+Mira [open issues](https://github.com/Xhiel23/Practica2_STKLM/issues) para una lista completa de las mejoras propuestas (y bugs conocidos).
+
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contribuir
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Para contribuir sigue los siguientes pasos:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Haz fork al proyecto
+2. Crea una rama para tu propuesta (`git checkout -b propuesta/PropuestaMaravillosa`)
+3. Haz commit a los cambios (`git commit -m 'He añadido esta PropuestaMaravillosa'`)
+4. Haz push a la Rama (`git push origin propuesta/PropuestaMaravillosa`)
+5. Abre un Pull Request
 
 
 
 <!-- LICENSE -->
-## License
+## Licencia
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distribuido bajo la licencia MIT. Para más información mira el archivo `LICENSE`.
 
 
 
 <!-- CONTACT -->
-## Contact
+## Contacto
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Xhiel23/repo_name](https://github.com/Xhiel23/Practica2_STKLM)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+## Agradecimientos
+* [Plantilla original del readme](https://github.com/othneildrew/Best-README-Template)
+* [Bejob](https://www.bejob.com)
+* [Women4IT](https://www.bejob.com/women-4-it/)
 
-* []()
-* []()
-* []()
 
 
 
@@ -184,15 +187,18 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
+[contributors-url]: https://github.com/Xhiel23/Practica2_STKLM/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
+[forks-url]: https://github.com/Xhiel23/Practica2_STKLM/network/members
+[stars-shield]: https://img.shields.io/github/stars/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
+[stars-url]: https://github.com/Xhiel23/Practica2_STKLM/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
+[issues-url]: https://github.com/Xhiel23/Practica2_STKLM/issues
+[license-shield]: https://img.shields.io/github/license/Xhiel23/Practica2_STKLM.svg?style=for-the-badge
+[license-url]: https://github.com/Xhiel23/Practica2_STKLM/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: www.linkedin.com/in/beatriz-cabrero-saiz-85b74a1ab
+[product-screenshot1]:images/screenshots/screenshot1.png
+[product-screenshot2]:images/screenshots/screenshot2.png
+[product-screenshot3]:images/screenshots/screenshot3.png

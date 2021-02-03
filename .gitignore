@@ -38,7 +38,7 @@ Thumbs.db
 
 
 # Mine
-gulpfile.js
+# gulpfile.js
 *.json
 node_modules
 styles.css.map
