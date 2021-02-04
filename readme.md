@@ -87,9 +87,9 @@ Para guardar una copia local y hacerla funcionar sigue los pasos de la sección 
 ### Gulp
 
 1. Clona el repositorio
-   ```sh
-   git clone https://github.com/Xhiel23/Practica2_STKLM.git
-   ```
+  ```sh
+  git clone https://github.com/Xhiel23/Practica2_STKLM.git
+  ```
 2. Asegurate de tener instalado Nodejs
   ```sh
   node --version
