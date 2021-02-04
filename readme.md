@@ -57,20 +57,8 @@ La práctica consiste en la creación de una página web tomando como referencia
 La página creada contiene las siguiente funcionalidades:
 <br />
 * Vista en pantallas de ordenador con modo resposive
-
-[![Product Name Screen Shot][product-screenshot1]](https://example.com)
-    <br />
-    <br />
 * Vista en pantallas pequeñas
-
-[![Product Name Screen Shot][product-screenshot2]](https://example.com)
-    <br />
-    <br />
 * Menú funcional
-
-[![Product Name Screen Shot][product-screenshot3]](https://example.com)
-    <br />
-     <br />
 
 ### Creado con:
 
@@ -186,6 +174,3 @@ Project Link: [https://github.com/Xhiel23/Practica2_STKLM](https://github.com/Xh
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[product-screenshot1]:images/screenshots/screenshot1.png
-[product-screenshot2]:images/screenshots/screenshot2.png
-[product-screenshot3]:images/screenshots/screenshot3.png
