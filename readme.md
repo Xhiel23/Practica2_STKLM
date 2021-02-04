@@ -118,7 +118,7 @@ El archivo gulpfile.js contiene las siguientes tareas de Gulp:
   <li> Compila los archivos SCSS y los convierte en CSS.
   <li> Mira si hay algún cambio en los archivos de Sass (.scss) o Javascript (.js).
   <li> Recarga automática de BrowserSync.
-  <li> (Opcional) Se puede quitar el comentario en el archivo gulpfile.js para generar la misma estructura de carpetas que se usa en este proyecto.
+  <li> (Opcional) Hay una tarea no incluida en el default para generar la misma estructura de carpetas que se usa en este proyecto (gulp makeStructure).
 </ul>
 <!-- USAGE EXAMPLES -->
 
