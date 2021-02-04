@@ -64,15 +64,31 @@ header {
             color: #393939;
             font-size: 0.8em; }
             header .centered .nav .menu .menuItem a:hover {
-              color: #e6ae48; }
+              color: #e6ae48;
+              transition: all 0.5s ease; }
         header .centered .nav .menu .home a {
           color: #e6ae48; }
-        header .centered .nav .menu .menuItem.page:hover .container {
-          display: block;
-          background-color: white; }
-          @media screen and (max-width: 1000px) {
-            header .centered .nav .menu .menuItem.page:hover .container {
-              display: none; } }
+        header .centered .nav .menu .menuItem.page, header .centered .nav .menu .menuItem.shop, header .centered .nav .menu .menuItem.blog, header .centered .nav .menu .menuItem.portfolio {
+          position: relative; }
+          header .centered .nav .menu .menuItem.page:hover > .container, header .centered .nav .menu .menuItem.shop:hover > .container, header .centered .nav .menu .menuItem.blog:hover > .container, header .centered .nav .menu .menuItem.portfolio:hover > .container {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            left: 0;
+            right: auto;
+            background-color: white; }
+            header .centered .nav .menu .menuItem.page:hover > .container .pagesMenu > li, header .centered .nav .menu .menuItem.shop:hover > .container .pagesMenu > li, header .centered .nav .menu .menuItem.blog:hover > .container .pagesMenu > li, header .centered .nav .menu .menuItem.portfolio:hover > .container .pagesMenu > li {
+              padding-left: 1.5em; }
+            @media screen and (max-width: 1000px) {
+              header .centered .nav .menu .menuItem.page:hover > .container, header .centered .nav .menu .menuItem.shop:hover > .container, header .centered .nav .menu .menuItem.blog:hover > .container, header .centered .nav .menu .menuItem.portfolio:hover > .container {
+                display: none; } }
+        header .centered .nav .menu .menuItem.shop:hover > .container.reverse, header .centered .nav .menu .menuItem.blog:hover > .container.reverse, header .centered .nav .menu .menuItem.portfolio:hover > .container.reverse {
+          text-align: right;
+          right: 0;
+          left: auto; }
+          header .centered .nav .menu .menuItem.shop:hover > .container.reverse .pagesMenu > li, header .centered .nav .menu .menuItem.blog:hover > .container.reverse .pagesMenu > li, header .centered .nav .menu .menuItem.portfolio:hover > .container.reverse .pagesMenu > li {
+            padding-right: 1.5em; }
       header .centered .nav .menu.visible {
         flex-direction: column;
         align-items: flex-start;
