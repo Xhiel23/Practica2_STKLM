@@ -17,7 +17,7 @@
             @include respond(medium) {
                 width: 90%;
                 text-align: left;
-                padding-left: 1em;
+                padding: 0 1em;
                 img{
                     display: block;
                     transform: scale(0.9);

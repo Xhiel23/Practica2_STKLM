@@ -49,7 +49,8 @@ header {
           width: 100%;
           position: absolute;
           left: 0;
-          top: 5em; } }
+          top: 5em;
+          background-color: white; } }
       header .centered .nav .menu {
         display: flex;
         flex: row nowrap;
@@ -171,7 +172,7 @@ header {
         .product .centered .column {
           width: 90%;
           text-align: left;
-          padding-left: 1em; }
+          padding: 0 1em; }
           .product .centered .column img {
             display: block;
             transform: scale(0.9); } }

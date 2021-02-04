@@ -48,7 +48,8 @@ header{
                 width: 100%;
                 position: absolute;
                 left: 0;
-                top: 5em;           
+                top: 5em;  
+                background-color: $mainBg;         
             }
             width: calc(100% - 200px);
             .menu{
