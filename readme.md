@@ -52,8 +52,7 @@
 ## Sobre el proyecto
 
 Segunda práctica realizada para el curso de Desarrolladora Web. 
-La práctica consiste en la creación de una página web tomando como referencia la página siguiente [STKML](https://demo.select-themes.com/stockholm14/).
-
+La práctica consiste en la creación de una página web tomando como referencia la página siguiente [STKML](https://demo.select-themes.com/stockholm14/). Para ello se ha usado HTML y SASS para la estructura y los estilos usando propiedades como flexbox y media queries. Además, se ha automatizado las tareas de compilación de los diferentes archivos (Typescript y SASS) y la recarga automática del servidor.
 La página creada contiene las siguiente funcionalidades:
 <br />
 * Vista en pantallas de ordenador con modo resposive
@@ -63,6 +62,7 @@ La página creada contiene las siguiente funcionalidades:
 ### Creado con:
 
 * HTML,CSS
+* [Typescript](https://www.typescriptlang.org)
 * [SASS](https://sass-lang.com)
 * [VS Code](https://code.visualstudio.com)
 * [Gulp](https://gulpjs.com)
@@ -110,12 +110,13 @@ Para guardar una copia local y hacerla funcionar sigue los pasos de la sección 
 6. Sigue las instrucciones de la pantalla para configurar el archivo package.json
 7. Una vez configurado, instala Gulp, Sass y Browser Sync
   ```sh
-  npm install gulp gulp-sass browser-sync
+  npm install gulp gulp-sass browser-sync gulp-typescript typescript
   ```
 
 El archivo gulpfile.js contiene las siguientes tareas de Gulp:
 <ul>
   <li> Compila los archivos SCSS y los convierte en CSS.
+  <li> Compila los archivos .ts cuando se genera algún cambio en el archivo y los convierte en Javascript.
   <li> Mira si hay algún cambio en los archivos de Sass (.scss) o Javascript (.js).
   <li> Recarga automática de BrowserSync.
   <li> (Opcional) Hay una tarea no incluida en el default para generar la misma estructura de carpetas que se usa en este proyecto (gulp makeStructure).
