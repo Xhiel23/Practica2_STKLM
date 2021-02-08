@@ -11,15 +11,6 @@ $fontWeight: 800;
 
 
 
-@mixin reset(){
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    border: 0;
-}
-
 @mixin flexPosition($direction,$wrapping,$just){
     display: flex;
     flex: $direction $wrapping;

@@ -1,10 +1,8 @@
-@import '_header';
-@import '_variables&fxs';
-@import '_product';
-@import 'footer';
+@import '_reset';
 *{
     @include reset;
 }
+@import '_header', '_variables&fxs', '_product','_footer';
 body{
     font-family: $mainFont;
     @include respond(medium){
